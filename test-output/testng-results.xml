@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="148" passed="145">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3792639" started-at="2023-01-11T14:24:43Z" finished-at="2023-01-11T15:27:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3792639" started-at="2023-01-11T14:24:43Z" finished-at="2023-01-11T15:27:56Z">
+      <class name="com.twc.ios.app.testcases.AndroidSmokeTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="beforeClass" is-config="true" duration-ms="30211" started-at="2023-01-11T19:54:43Z" finished-at="2023-01-11T19:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="beforeTest" duration-ms="158291" started-at="2023-01-11T19:55:13Z" finished-at="2023-01-11T19:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Verify_Interstitial_Ad_Call()[pri:75, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Interstitial_Ad_Call" duration-ms="121378" started-at="2023-01-11T19:57:52Z" finished-at="2023-01-11T19:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Interstitial_Ad_Call -->
+        <test-method status="PASS" signature="Validate_Interstitial_Ad_Call_pos_Custom_param()[pri:76, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Interstitial_Ad_Call_pos_Custom_param" duration-ms="183" started-at="2023-01-11T19:59:53Z" finished-at="2023-01-11T19:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Interstitial_Ad_Call_pos_Custom_param -->
+        <test-method status="PASS" signature="Verify_Feed_Calls()[pri:100, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Feed_Calls" duration-ms="1883011" started-at="2023-01-11T19:59:53Z" finished-at="2023-01-11T20:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Feed_Calls -->
+        <test-method status="PASS" signature="Verify_Homescreen_Adhesive_AdCall()[pri:101, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Homescreen_Adhesive_AdCall" duration-ms="755" started-at="2023-01-11T20:31:16Z" finished-at="2023-01-11T20:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Homescreen_Adhesive_AdCall -->
+        <test-method status="PASS" signature="Verify_NextGen_IM_AdCall()[pri:102, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_NextGen_IM_AdCall" duration-ms="651" started-at="2023-01-11T20:31:17Z" finished-at="2023-01-11T20:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_NextGen_IM_AdCall -->
+        <test-method status="PASS" signature="Verify_HourlyDetails_AdCall()[pri:103, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_HourlyDetails_AdCall" duration-ms="689" started-at="2023-01-11T20:31:18Z" finished-at="2023-01-11T20:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_HourlyDetails_AdCall -->
+        <test-method status="PASS" signature="Verify_TrendingPage_AdCall()[pri:104, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_TrendingPage_AdCall" duration-ms="609" started-at="2023-01-11T20:31:18Z" finished-at="2023-01-11T20:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_TrendingPage_AdCall -->
+        <test-method status="PASS" signature="Verify_Air_Quality_Details_AdCall()[pri:105, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Air_Quality_Details_AdCall" duration-ms="614" started-at="2023-01-11T20:31:19Z" finished-at="2023-01-11T20:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Air_Quality_Details_AdCall -->
+        <test-method status="PASS" signature="Verify_MapsDetails_AdCall()[pri:106, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_MapsDetails_AdCall" duration-ms="591" started-at="2023-01-11T20:31:20Z" finished-at="2023-01-11T20:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_MapsDetails_AdCall -->
+        <test-method status="PASS" signature="Verify_Health_Flu_ContentPage_AdCall()[pri:107, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Health_Flu_ContentPage_AdCall" duration-ms="628" started-at="2023-01-11T20:31:20Z" finished-at="2023-01-11T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Health_Flu_ContentPage_AdCall -->
+        <test-method status="PASS" signature="Verify_Health_Allergy_ContentPage_AdCall()[pri:108, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Health_Allergy_ContentPage_AdCall" duration-ms="548" started-at="2023-01-11T20:31:21Z" finished-at="2023-01-11T20:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Health_Allergy_ContentPage_AdCall -->
+        <test-method status="PASS" signature="Verify_Health_Running_ContentPage_AdCall()[pri:109, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Health_Running_ContentPage_AdCall" duration-ms="502" started-at="2023-01-11T20:31:21Z" finished-at="2023-01-11T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Health_Running_ContentPage_AdCall -->
+        <test-method status="PASS" signature="Verify_Health_BoatAndBeach_ContentPage_AdCall()[pri:110, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Health_BoatAndBeach_ContentPage_AdCall" duration-ms="552" started-at="2023-01-11T20:31:22Z" finished-at="2023-01-11T20:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Health_BoatAndBeach_ContentPage_AdCall -->
+        <test-method status="PASS" signature="Verify_AlertCenterAd()[pri:111, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_AlertCenterAd" duration-ms="651" started-at="2023-01-11T20:31:23Z" finished-at="2023-01-11T20:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AlertCenterAd -->
+        <test-method status="PASS" signature="Verify_SafetyAndPreparednessCard_AdCall()[pri:115, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_SafetyAndPreparednessCard_AdCall" duration-ms="543" started-at="2023-01-11T20:31:23Z" finished-at="2023-01-11T20:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SafetyAndPreparednessCard_AdCall -->
+        <test-method status="PASS" signature="Verify_Seasonal_Hub_Details_AdCall()[pri:117, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Seasonal_Hub_Details_AdCall" duration-ms="518" started-at="2023-01-11T20:31:24Z" finished-at="2023-01-11T20:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Seasonal_Hub_Details_AdCall -->
+        <test-method status="PASS" signature="validate_Marquee_sod_Custom_param()[pri:201, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Marquee_sod_Custom_param" duration-ms="496" started-at="2023-01-11T20:31:24Z" finished-at="2023-01-11T20:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Marquee_sod_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_sod_Custom_param()[pri:202, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_sod_Custom_param" duration-ms="510" started-at="2023-01-11T20:31:25Z" finished-at="2023-01-11T20:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_sod_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_zip_Custom_param()[pri:205, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_zip_Custom_param" duration-ms="1139" started-at="2023-01-11T20:31:25Z" finished-at="2023-01-11T20:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_zip_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_zip_Custom_param()[pri:206, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_zip_Custom_param" duration-ms="1198" started-at="2023-01-11T20:31:26Z" finished-at="2023-01-11T20:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_zip_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_plat_Custom_param()[pri:208, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_plat_Custom_param" duration-ms="536" started-at="2023-01-11T20:31:28Z" finished-at="2023-01-11T20:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_plat_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_plat_Custom_param()[pri:209, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_plat_Custom_param" duration-ms="567" started-at="2023-01-11T20:31:28Z" finished-at="2023-01-11T20:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_plat_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_adid_Custom_param()[pri:211, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_adid_Custom_param" duration-ms="538" started-at="2023-01-11T20:31:29Z" finished-at="2023-01-11T20:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_adid_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_adid_Custom_param()[pri:212, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_adid_Custom_param" duration-ms="548" started-at="2023-01-11T20:31:29Z" finished-at="2023-01-11T20:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_adid_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_cnd_Custom_param()[pri:214, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_cnd_Custom_param" duration-ms="1067" started-at="2023-01-11T20:31:30Z" finished-at="2023-01-11T20:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_cnd_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_cnd_Custom_param()[pri:215, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_cnd_Custom_param" duration-ms="1261" started-at="2023-01-11T20:31:31Z" finished-at="2023-01-11T20:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_cnd_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_dma_Custom_param()[pri:217, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_dma_Custom_param" duration-ms="1482" started-at="2023-01-11T20:31:32Z" finished-at="2023-01-11T20:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_dma_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_dma_Custom_param()[pri:218, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_dma_Custom_param" duration-ms="1092" started-at="2023-01-11T20:31:34Z" finished-at="2023-01-11T20:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_dma_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_tmp_Custom_param()[pri:220, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_tmp_Custom_param" duration-ms="1189" started-at="2023-01-11T20:31:35Z" finished-at="2023-01-11T20:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_tmp_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_tmp_Custom_param()[pri:221, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_tmp_Custom_param" duration-ms="1061" started-at="2023-01-11T20:31:36Z" finished-at="2023-01-11T20:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_tmp_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_tmpc_Custom_param()[pri:223, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_tmpc_Custom_param" duration-ms="1227" started-at="2023-01-11T20:31:37Z" finished-at="2023-01-11T20:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_tmpc_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_tmpc_Custom_param()[pri:224, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_tmpc_Custom_param" duration-ms="1030" started-at="2023-01-11T20:31:38Z" finished-at="2023-01-11T20:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_tmpc_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_tmpr_Custom_param()[pri:226, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_tmpr_Custom_param" duration-ms="1037" started-at="2023-01-11T20:31:39Z" finished-at="2023-01-11T20:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_tmpr_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_tmpr_Custom_param()[pri:227, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_tmpr_Custom_param" duration-ms="1028" started-at="2023-01-11T20:31:40Z" finished-at="2023-01-11T20:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_tmpr_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_ct_Custom_param()[pri:229, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_ct_Custom_param" duration-ms="1107" started-at="2023-01-11T20:31:41Z" finished-at="2023-01-11T20:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_ct_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_ct_Custom_param()[pri:230, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_ct_Custom_param" duration-ms="1019" started-at="2023-01-11T20:31:42Z" finished-at="2023-01-11T20:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_ct_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_lang_Custom_param()[pri:232, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_lang_Custom_param" duration-ms="547" started-at="2023-01-11T20:31:43Z" finished-at="2023-01-11T20:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_lang_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_lang_Custom_param()[pri:233, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_lang_Custom_param" duration-ms="492" started-at="2023-01-11T20:31:44Z" finished-at="2023-01-11T20:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_lang_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_aid_Custom_param()[pri:235, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_aid_Custom_param" duration-ms="496" started-at="2023-01-11T20:31:44Z" finished-at="2023-01-11T20:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_aid_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_aid_Custom_param()[pri:236, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_aid_Custom_param" duration-ms="515" started-at="2023-01-11T20:31:45Z" finished-at="2023-01-11T20:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_aid_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_dynght_Custom_param()[pri:238, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_dynght_Custom_param" duration-ms="994" started-at="2023-01-11T20:31:45Z" finished-at="2023-01-11T20:31:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_dynght_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_dynght_Custom_param()[pri:239, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_dynght_Custom_param" duration-ms="1049" started-at="2023-01-11T20:31:46Z" finished-at="2023-01-11T20:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_dynght_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_locale_Custom_param()[pri:241, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_locale_Custom_param" duration-ms="1134" started-at="2023-01-11T20:31:48Z" finished-at="2023-01-11T20:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_locale_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_locale_Custom_param()[pri:242, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_locale_Custom_param" duration-ms="1083" started-at="2023-01-11T20:31:49Z" finished-at="2023-01-11T20:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_locale_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_tile_Custom_param()[pri:244, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_tile_Custom_param" duration-ms="555" started-at="2023-01-11T20:31:50Z" finished-at="2023-01-11T20:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_tile_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_tile_Custom_param()[pri:245, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_tile_Custom_param" duration-ms="492" started-at="2023-01-11T20:31:50Z" finished-at="2023-01-11T20:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_tile_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_ver_Custom_param()[pri:248, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_ver_Custom_param" duration-ms="508" started-at="2023-01-11T20:31:51Z" finished-at="2023-01-11T20:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_ver_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_ver_Custom_param()[pri:249, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_ver_Custom_param" duration-ms="549" started-at="2023-01-11T20:31:51Z" finished-at="2023-01-11T20:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_ver_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_ord_Custom_param()[pri:251, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_ord_Custom_param" duration-ms="556" started-at="2023-01-11T20:31:52Z" finished-at="2023-01-11T20:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_ord_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_ord_Custom_param()[pri:252, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_ord_Custom_param" duration-ms="495" started-at="2023-01-11T20:31:52Z" finished-at="2023-01-11T20:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_ord_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_st_Custom_param()[pri:257, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_st_Custom_param" duration-ms="1048" started-at="2023-01-11T20:31:53Z" finished-at="2023-01-11T20:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_st_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_st_Custom_param()[pri:258, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_st_Custom_param" duration-ms="1106" started-at="2023-01-11T20:31:54Z" finished-at="2023-01-11T20:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_st_Custom_param -->
+        <test-method status="PASS" signature="Validate_HomeScreen_Call_tf_Custom_param()[pri:260, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_HomeScreen_Call_tf_Custom_param" duration-ms="501" started-at="2023-01-11T20:31:55Z" finished-at="2023-01-11T20:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HomeScreen_Call_tf_Custom_param -->
+        <test-method status="PASS" signature="Validate_DailyDetails_tf_Custom_param()[pri:262, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_DailyDetails_tf_Custom_param" duration-ms="533" started-at="2023-01-11T20:31:56Z" finished-at="2023-01-11T20:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_DailyDetails_tf_Custom_param -->
+        <test-method status="PASS" signature="Validate_daily_details_fcnd_Custom_param()[pri:264, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_daily_details_fcnd_Custom_param" duration-ms="999" started-at="2023-01-11T20:31:56Z" finished-at="2023-01-11T20:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_daily_details_fcnd_Custom_param -->
+        <test-method status="PASS" signature="Validate_daily_details_fdynght_Custom_param()[pri:265, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_daily_details_fdynght_Custom_param" duration-ms="1022" started-at="2023-01-11T20:31:57Z" finished-at="2023-01-11T20:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_daily_details_fdynght_Custom_param -->
+        <test-method status="PASS" signature="Validate_daily_details_dt_Custom_param()[pri:266, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_daily_details_dt_Custom_param" duration-ms="555" started-at="2023-01-11T20:31:58Z" finished-at="2023-01-11T20:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_daily_details_dt_Custom_param -->
+        <test-method status="PASS" signature="Validate_daily_details_mnth_Custom_param()[pri:267, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_daily_details_mnth_Custom_param" duration-ms="486" started-at="2023-01-11T20:31:59Z" finished-at="2023-01-11T20:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_daily_details_mnth_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_ltv_Custom_param()[pri:270, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_ltv_Custom_param" duration-ms="487" started-at="2023-01-11T20:31:59Z" finished-at="2023-01-11T20:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Homescreen_Adhesive_ltv_Custom_param()[pri:271, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Homescreen_Adhesive_ltv_Custom_param" duration-ms="509" started-at="2023-01-11T20:32:00Z" finished-at="2023-01-11T20:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Homescreen_Adhesive_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_ltv_Custom_param()[pri:272, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_ltv_Custom_param" duration-ms="520" started-at="2023-01-11T20:32:00Z" finished-at="2023-01-11T20:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Health_Allergy_ContentPage_ltv_Custom_param()[pri:273, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Health_Allergy_ContentPage_ltv_Custom_param" duration-ms="479" started-at="2023-01-11T20:32:01Z" finished-at="2023-01-11T20:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Health_Allergy_ContentPage_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Health_Allergy_Spotlight_ltv_Custom_param()[pri:274, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Health_Allergy_Spotlight_ltv_Custom_param" duration-ms="492" started-at="2023-01-11T20:32:01Z" finished-at="2023-01-11T20:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Health_Allergy_Spotlight_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Health_Allergy_Articles_ltv_Custom_param()[pri:275, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Health_Allergy_Articles_ltv_Custom_param" duration-ms="579" started-at="2023-01-11T20:32:02Z" finished-at="2023-01-11T20:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Health_Allergy_Articles_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Health_Flu_ContentPage_ltv_Custom_param()[pri:276, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Health_Flu_ContentPage_ltv_Custom_param" duration-ms="624" started-at="2023-01-11T20:32:02Z" finished-at="2023-01-11T20:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Health_Flu_ContentPage_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Health_Flu_Articles_ltv_Custom_param()[pri:277, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Health_Flu_Articles_ltv_Custom_param" duration-ms="502" started-at="2023-01-11T20:32:03Z" finished-at="2023-01-11T20:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Health_Flu_Articles_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_MapDetails_ltv_Custom_param()[pri:278, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_MapDetails_ltv_Custom_param" duration-ms="530" started-at="2023-01-11T20:32:03Z" finished-at="2023-01-11T20:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_MapDetails_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_AirQuality_Details_ltv_Custom_param()[pri:279, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_AirQuality_Details_ltv_Custom_param" duration-ms="511" started-at="2023-01-11T20:32:04Z" finished-at="2023-01-11T20:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AirQuality_Details_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Alert_Center_ltv_Custom_param()[pri:280, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Alert_Center_ltv_Custom_param" duration-ms="514" started-at="2023-01-11T20:32:04Z" finished-at="2023-01-11T20:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Alert_Center_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_SafetyAndPreparedness_ltv_Custom_param()[pri:281, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_SafetyAndPreparedness_ltv_Custom_param" duration-ms="490" started-at="2023-01-11T20:32:05Z" finished-at="2023-01-11T20:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_SafetyAndPreparedness_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_fltmpc_Custom_param()[pri:289, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_fltmpc_Custom_param" duration-ms="995" started-at="2023-01-11T20:32:05Z" finished-at="2023-01-11T20:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_fltmpc_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_fltmpc_Custom_param()[pri:290, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_fltmpc_Custom_param" duration-ms="1110" started-at="2023-01-11T20:32:06Z" finished-at="2023-01-11T20:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_fltmpc_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_h2o_Custom_param()[pri:295, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_h2o_Custom_param" duration-ms="545" started-at="2023-01-11T20:32:08Z" finished-at="2023-01-11T20:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_h2o_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_h2o_Custom_param()[pri:296, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_h2o_Custom_param" duration-ms="527" started-at="2023-01-11T20:32:08Z" finished-at="2023-01-11T20:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_h2o_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_hmid_Custom_param()[pri:298, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_hmid_Custom_param" duration-ms="989" started-at="2023-01-11T20:32:09Z" finished-at="2023-01-11T20:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_hmid_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_hmid_Custom_param()[pri:299, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_hmid_Custom_param" duration-ms="1006" started-at="2023-01-11T20:32:10Z" finished-at="2023-01-11T20:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_hmid_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_uv_Custom_param()[pri:304, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_uv_Custom_param" duration-ms="999" started-at="2023-01-11T20:32:11Z" finished-at="2023-01-11T20:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_uv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_uv_Custom_param()[pri:305, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_uv_Custom_param" duration-ms="1030" started-at="2023-01-11T20:32:12Z" finished-at="2023-01-11T20:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_uv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Marquee_wind_Custom_param()[pri:307, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Marquee_wind_Custom_param" duration-ms="1088" started-at="2023-01-11T20:32:13Z" finished-at="2023-01-11T20:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Marquee_wind_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_wind_Custom_param()[pri:308, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_wind_Custom_param" duration-ms="1051" started-at="2023-01-11T20:32:14Z" finished-at="2023-01-11T20:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_wind_Custom_param -->
+        <test-method status="PASS" signature="validate_Marquee_mr_Custom_param()[pri:310, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Marquee_mr_Custom_param" duration-ms="557" started-at="2023-01-11T20:32:15Z" finished-at="2023-01-11T20:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Marquee_mr_Custom_param -->
+        <test-method status="PASS" signature="Validate_Feed1_mr_Custom_param()[pri:311, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Feed1_mr_Custom_param" duration-ms="501" started-at="2023-01-11T20:32:15Z" finished-at="2023-01-11T20:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Feed1_mr_Custom_param -->
+        <test-method status="PASS" signature="Verify_AllergyDetails_Spotlight_AdCall()[pri:320, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_AllergyDetails_Spotlight_AdCall" duration-ms="501" started-at="2023-01-11T20:32:16Z" finished-at="2023-01-11T20:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AllergyDetails_Spotlight_AdCall -->
+        <test-method status="PASS" signature="Validate_AllergyDetails_Spotlight_pos_Custom_param()[pri:321, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_AllergyDetails_Spotlight_pos_Custom_param" duration-ms="505" started-at="2023-01-11T20:32:16Z" finished-at="2023-01-11T20:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AllergyDetails_Spotlight_pos_Custom_param -->
+        <test-method status="PASS" signature="Validate_AllergyDetails_Spotlight_Ad_Size()[pri:322, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_AllergyDetails_Spotlight_Ad_Size" duration-ms="525" started-at="2023-01-11T20:32:17Z" finished-at="2023-01-11T20:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_AllergyDetails_Spotlight_Ad_Size -->
+        <test-method status="PASS" signature="validate_Sticky_Ad_Call_content_url_parameter()[pri:326, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Sticky_Ad_Call_content_url_parameter" duration-ms="489" started-at="2023-01-11T20:32:17Z" finished-at="2023-01-11T20:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Sticky_Ad_Call_content_url_parameter -->
+        <test-method status="PASS" signature="validate_Feed1_Ad_Call_content_url_parameter()[pri:327, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Feed1_Ad_Call_content_url_parameter" duration-ms="515" started-at="2023-01-11T20:32:18Z" finished-at="2023-01-11T20:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Feed1_Ad_Call_content_url_parameter -->
+        <test-method status="PASS" signature="validate_Daily_Details_Ad_Call_content_url_parameter()[pri:328, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Daily_Details_Ad_Call_content_url_parameter" duration-ms="508" started-at="2023-01-11T20:32:18Z" finished-at="2023-01-11T20:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Daily_Details_Ad_Call_content_url_parameter -->
+        <test-method status="PASS" signature="validate_Map_Details_Ad_Call_content_url_parameter()[pri:329, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Map_Details_Ad_Call_content_url_parameter" duration-ms="534" started-at="2023-01-11T20:32:19Z" finished-at="2023-01-11T20:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Map_Details_Ad_Call_content_url_parameter -->
+        <test-method status="PASS" signature="Verify_Daily_Details_AdUnits()[pri:450, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Daily_Details_AdUnits" duration-ms="316417" started-at="2023-01-11T20:32:19Z" finished-at="2023-01-11T20:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Daily_Details_AdUnits -->
+        <test-method status="PASS" signature="Validate_Daily_Details_ltv_Custom_param()[pri:451, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Daily_Details_ltv_Custom_param" duration-ms="106" started-at="2023-01-11T20:37:36Z" finished-at="2023-01-11T20:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Daily_Details_ltv_Custom_param -->
+        <test-method status="PASS" signature="Verify_Hourly_Details_mr_Custom_Parameter()[pri:475, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Hourly_Details_mr_Custom_Parameter" duration-ms="68980" started-at="2023-01-11T20:37:36Z" finished-at="2023-01-11T20:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Hourly_Details_mr_Custom_Parameter -->
+        <test-method status="FAIL" signature="Verify_Map_Details_mr_Custom_Parameter()[pri:500, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Map_Details_mr_Custom_Parameter" duration-ms="82076" started-at="2023-01-11T20:38:45Z" finished-at="2023-01-11T20:40:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom Parameter :mr value: 0 is not matched with the expected value 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom Parameter :mr value: 0 is not matched with the expected value 1
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.twc.ios.app.general.Utils.validate_custom_param_val_of_gampad(Utils.java:9429)
+	at com.twc.ios.app.testcases.AndroidSmokeTest.Verify_Map_Details_mr_Custom_Parameter(AndroidSmokeTest.java:2244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Map_Details_mr_Custom_Parameter -->
+        <test-method status="PASS" signature="Verify_enable_preConditions_for_WeatherFx_API_Parameters()[pri:526, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_enable_preConditions_for_WeatherFx_API_Parameters" duration-ms="296785" started-at="2023-01-11T20:40:07Z" finished-at="2023-01-11T20:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_enable_preConditions_for_WeatherFx_API_Parameters -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_wfxtg_Custom_param()[pri:527, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_HourlyDetails_wfxtg_Custom_param" duration-ms="225" started-at="2023-01-11T20:45:04Z" finished-at="2023-01-11T20:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_wfxtg_Custom_param -->
+        <test-method status="PASS" signature="Validate_DailyDetails_wfxtg_Custom_param()[pri:528, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_DailyDetails_wfxtg_Custom_param" duration-ms="86" started-at="2023-01-11T20:45:04Z" finished-at="2023-01-11T20:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_DailyDetails_wfxtg_Custom_param -->
+        <test-method status="PASS" signature="Validate_MapDetails_wfxtg_Custom_param()[pri:529, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_MapDetails_wfxtg_Custom_param" duration-ms="105" started-at="2023-01-11T20:45:04Z" finished-at="2023-01-11T20:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_MapDetails_wfxtg_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_cxtg_Custom_param()[pri:530, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_HourlyDetails_cxtg_Custom_param" duration-ms="91" started-at="2023-01-11T20:45:04Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_cxtg_Custom_param -->
+        <test-method status="PASS" signature="Validate_DailyDetails_cxtg_Custom_param()[pri:531, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_DailyDetails_cxtg_Custom_param" duration-ms="99" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_DailyDetails_cxtg_Custom_param -->
+        <test-method status="PASS" signature="Validate_MapDetails_cxtg_Custom_param()[pri:532, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_MapDetails_cxtg_Custom_param" duration-ms="104" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_MapDetails_cxtg_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_zcs_Custom_param()[pri:533, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_HourlyDetails_zcs_Custom_param" duration-ms="95" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_zcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_DailyDetails_zcs_Custom_param()[pri:534, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_DailyDetails_zcs_Custom_param" duration-ms="98" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_DailyDetails_zcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_MapDetails_zcs_Custom_param()[pri:535, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_MapDetails_zcs_Custom_param" duration-ms="98" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_MapDetails_zcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_hzcs_Custom_param()[pri:536, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_HourlyDetails_hzcs_Custom_param" duration-ms="99" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_hzcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_DailyDetails_hzcs_Custom_param()[pri:537, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_DailyDetails_hzcs_Custom_param" duration-ms="97" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_DailyDetails_hzcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_MapDetails_hzcs_Custom_param()[pri:538, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_MapDetails_hzcs_Custom_param" duration-ms="103" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_MapDetails_hzcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_HourlyDetails_nzcs_Custom_param()[pri:539, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_HourlyDetails_nzcs_Custom_param" duration-ms="94" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HourlyDetails_nzcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_DailyDetails_nzcs_Custom_param()[pri:540, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_DailyDetails_nzcs_Custom_param" duration-ms="96" started-at="2023-01-11T20:45:05Z" finished-at="2023-01-11T20:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_DailyDetails_nzcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_MapDetails_nzcs_Custom_param()[pri:541, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_MapDetails_nzcs_Custom_param" duration-ms="82" started-at="2023-01-11T20:45:06Z" finished-at="2023-01-11T20:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_MapDetails_nzcs_Custom_param -->
+        <test-method status="PASS" signature="Verify_PrerollAd()[pri:650, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_PrerollAd" duration-ms="123981" started-at="2023-01-11T20:45:06Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_PrerollAd -->
+        <test-method status="PASS" signature="Validate_PreRollVideo_cmsid_Custom_param()[pri:652, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_cmsid_Custom_param" duration-ms="54" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_cmsid_Custom_param -->
+        <test-method status="PASS" signature="Validate_PreRollVideo_ttid_Custom_param()[pri:653, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_ttid_Custom_param" duration-ms="51" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_ttid_Custom_param -->
+        <test-method status="PASS" signature="Validate_PreRollVideo_vid_Custom_param()[pri:654, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_vid_Custom_param" duration-ms="59" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_vid_Custom_param -->
+        <test-method status="PASS" signature="Validate_PreRollVideo_description_url_Custom_param()[pri:655, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_description_url_Custom_param" duration-ms="58" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_description_url_Custom_param -->
+        <test-method status="PASS" signature="Validate_PreRollVideo_ref_Custom_param()[pri:656, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_ref_Custom_param" duration-ms="56" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_ref_Custom_param -->
+        <test-method status="PASS" signature="Validate_PreRollVideo_wfxtg_Custom_param()[pri:660, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_wfxtg_Custom_param" duration-ms="55" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_wfxtg_Custom_param -->
+        <test-method status="PASS" signature="Validate_PreRollVideo_cxtg_Custom_param()[pri:661, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_cxtg_Custom_param" duration-ms="56" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_cxtg_Custom_param -->
+        <test-method status="PASS" signature="Validate_PreRollVideo_zcs_Custom_param()[pri:662, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_zcs_Custom_param" duration-ms="56" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_zcs_Custom_param -->
+        <test-method status="FAIL" signature="Validate_PreRollVideo_hzcs_Custom_param()[pri:663, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_hzcs_Custom_param" duration-ms="61" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Custom parameter :hzcs not found/no value in ad call, hence Custom Parameter: hzcs validation skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Custom parameter :hzcs not found/no value in ad call, hence Custom Parameter: hzcs validation skipped
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.twc.ios.app.general.Utils.validate_custom_param_val_of_gampad_with_zip(Utils.java:9755)
+	at com.twc.ios.app.testcases.AndroidSmokeTest.Validate_PreRollVideo_hzcs_Custom_param(AndroidSmokeTest.java:2707)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_hzcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_PreRollVideo_nzcs_Custom_param()[pri:664, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_PreRollVideo_nzcs_Custom_param" duration-ms="61" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_PreRollVideo_nzcs_Custom_param -->
+        <test-method status="PASS" signature="Validate_IMA_SDK_version()[pri:675, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_IMA_SDK_version" duration-ms="58" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_IMA_SDK_version -->
+        <test-method status="PASS" signature="validate_PreRollVideo_Call_content_url_parameter()[pri:680, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_PreRollVideo_Call_content_url_parameter" duration-ms="58" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_PreRollVideo_Call_content_url_parameter -->
+        <test-method status="PASS" signature="Verify_Hourly_Details_BigAd1_Adcall()[pri:701, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Hourly_Details_BigAd1_Adcall" duration-ms="538545" started-at="2023-01-11T20:47:10Z" finished-at="2023-01-11T20:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Hourly_Details_BigAd1_Adcall -->
+        <test-method status="PASS" signature="Verify_Hourly_Details_BigAd2_Adcall()[pri:702, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Hourly_Details_BigAd2_Adcall" duration-ms="96" started-at="2023-01-11T20:56:09Z" finished-at="2023-01-11T20:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Hourly_Details_BigAd2_Adcall -->
+        <test-method status="PASS" signature="Verify_Hourly_Details_BigAd3_Adcall()[pri:703, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Hourly_Details_BigAd3_Adcall" duration-ms="99" started-at="2023-01-11T20:56:09Z" finished-at="2023-01-11T20:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Hourly_Details_BigAd3_Adcall -->
+        <test-method status="PASS" signature="validate_Hourly_Details_BigAd1_Call_content_url_parameter()[pri:704, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Hourly_Details_BigAd1_Call_content_url_parameter" duration-ms="102" started-at="2023-01-11T20:56:09Z" finished-at="2023-01-11T20:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Hourly_Details_BigAd1_Call_content_url_parameter -->
+        <test-method status="PASS" signature="validate_Hourly_Details_BigAd2_Call_content_url_parameter()[pri:705, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Hourly_Details_BigAd2_Call_content_url_parameter" duration-ms="149" started-at="2023-01-11T20:56:09Z" finished-at="2023-01-11T20:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Hourly_Details_BigAd2_Call_content_url_parameter -->
+        <test-method status="PASS" signature="validate_Hourly_Details_BigAd3_Call_content_url_parameter()[pri:706, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Hourly_Details_BigAd3_Call_content_url_parameter" duration-ms="135" started-at="2023-01-11T20:56:09Z" finished-at="2023-01-11T20:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Hourly_Details_BigAd3_Call_content_url_parameter -->
+        <test-method status="PASS" signature="Validate_Hourly_Details_BigAd1_Call_ltv_Custom_param()[pri:710, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Hourly_Details_BigAd1_Call_ltv_Custom_param" duration-ms="120" started-at="2023-01-11T20:56:09Z" finished-at="2023-01-11T20:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Hourly_Details_BigAd1_Call_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Hourly_Details_BigAd2_Call_ltv_Custom_param()[pri:711, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Hourly_Details_BigAd2_Call_ltv_Custom_param" duration-ms="109" started-at="2023-01-11T20:56:10Z" finished-at="2023-01-11T20:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Hourly_Details_BigAd2_Call_ltv_Custom_param -->
+        <test-method status="PASS" signature="Validate_Hourly_Details_BigAd3_Call_ltv_Custom_param()[pri:712, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Hourly_Details_BigAd3_Call_ltv_Custom_param" duration-ms="105" started-at="2023-01-11T20:56:10Z" finished-at="2023-01-11T20:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Hourly_Details_BigAd3_Call_ltv_Custom_param -->
+        <test-method status="PASS" signature="kill_and_Launch_app_for_api_calls()[pri:800, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="kill_and_Launch_app_for_api_calls" duration-ms="36581" started-at="2023-01-11T20:56:10Z" finished-at="2023-01-11T20:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kill_and_Launch_app_for_api_calls -->
+        <test-method status="PASS" signature="validate_Sticky_Ad_mr_Custom_param()[pri:801, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="validate_Sticky_Ad_mr_Custom_param" duration-ms="31" started-at="2023-01-11T20:56:46Z" finished-at="2023-01-11T20:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Sticky_Ad_mr_Custom_param -->
+        <test-method status="PASS" signature="Verify_Lotame_Call_On_KillAndLaunch()[pri:811, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Lotame_Call_On_KillAndLaunch" duration-ms="37" started-at="2023-01-11T20:56:46Z" finished-at="2023-01-11T20:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Lotame_Call_On_KillAndLaunch -->
+        <test-method status="PASS" signature="Verify_TurboAPI_Call_On_KillAndLaunch()[pri:812, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_TurboAPI_Call_On_KillAndLaunch" duration-ms="28" started-at="2023-01-11T20:56:46Z" finished-at="2023-01-11T20:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_TurboAPI_Call_On_KillAndLaunch -->
+        <test-method status="PASS" signature="Verify_WFXTriggers_Call_On_KillAndLaunch()[pri:813, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_WFXTriggers_Call_On_KillAndLaunch" duration-ms="28" started-at="2023-01-11T20:56:46Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WFXTriggers_Call_On_KillAndLaunch -->
+        <test-method status="PASS" signature="Verify_LocationWFXTriggers_Call_On_KillAndLaunch()[pri:814, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_LocationWFXTriggers_Call_On_KillAndLaunch" duration-ms="29" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LocationWFXTriggers_Call_On_KillAndLaunch -->
+        <test-method status="PASS" signature="Validate_Amazon_SDK_adsdk_parameter()[pri:825, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Amazon_SDK_adsdk_parameter" duration-ms="63" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Amazon_SDK_adsdk_parameter -->
+        <test-method status="PASS" signature="Validate_GMA_SDK_version()[pri:826, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_GMA_SDK_version" duration-ms="31" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_GMA_SDK_version -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter()[pri:827, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter" duration-ms="58" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_config_app_Call_sdkVersion_parameter -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Bidder_API_Call_Response_Code()[pri:851, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Criteo_SDK_Bidder_API_Call_Response_Code" duration-ms="66" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Bidder_API_Call_Response_Code -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Initialization_API_Call_Response_Code()[pri:852, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Criteo_SDK_Initialization_API_Call_Response_Code" duration-ms="62" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Initialization_API_Call_Response_Code -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled()[pri:853, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled" duration-ms="60" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_csmEnabled -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled()[pri:854, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled" duration-ms="61" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_liveBiddingEnabled -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_prefetchOnInitEnabled()[pri:856, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_prefetchOnInitEnabled" duration-ms="68" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_prefetchOnInitEnabled -->
+        <test-method status="PASS" signature="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_remoteLogLevel()[pri:857, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_remoteLogLevel" duration-ms="59" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Criteo_SDK_Initialization_API_Call_Response_Parameter_remoteLogLevel -->
+        <test-method status="FAIL" signature="Verify_Confiant_SDK_Calls()[pri:875, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="Verify_Confiant_SDK_Calls" duration-ms="62" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:56:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[cdn.clarium.io/7HVJ0a2cSA4bM1_8xVpJwK0Gzc8/sdk/5.0.3/config.js?cb= call is not present in Charles session]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: cdn.clarium.io/7HVJ0a2cSA4bM1_8xVpJwK0Gzc8/sdk/5.0.3/config.js?cb= call is not present in Charles session
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.twc.ios.app.general.Utils.verifyConfiantSDKInitializationCallsAndroid(Utils.java:10592)
+	at com.twc.ios.app.testcases.AndroidSmokeTest.Verify_Confiant_SDK_Calls(AndroidSmokeTest.java:3129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Confiant_SDK_Calls -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.twc.ios.app.testcases.AndroidSmokeTest@7a22a3c2]" name="afterClass" is-config="true" duration-ms="68616" started-at="2023-01-11T20:56:47Z" finished-at="2023-01-11T20:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.twc.ios.app.testcases.AndroidSmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
