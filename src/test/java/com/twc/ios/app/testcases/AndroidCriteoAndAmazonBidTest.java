@@ -84,7 +84,7 @@ public class AndroidCriteoAndAmazonBidTest extends TwcIosBaseTest {
 		logStep("****** Updating Device Proxy Details and Launch the App test case Started");
 		// Preconditions
 		Functions.capabilities();
-		Functions.Appium_Autostart();
+		//Functions.Appium_Autostart();
 		//Utils.getCurrentMacIPAddressAndSetandroidProxy(true, true);
 		// Enable rewriting on Charles install/launch TWC to rewrite geoipcountry to US
 		proxy.enableRewriting();
