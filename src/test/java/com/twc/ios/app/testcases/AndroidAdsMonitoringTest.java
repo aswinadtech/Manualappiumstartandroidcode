@@ -147,9 +147,9 @@ public class AndroidAdsMonitoringTest extends TwcIosBaseTest {
 		logStep("****** Updating Device Proxy Details and Launch the App test case Started");
 		// Preconditions
 		Functions.capabilities();
-		Functions.Appium_Autostart();
+		//Functions.Appium_Autostart();
 				
-		Utils.getCurrentMacIPAddressAndSetandroidProxy(true, true);
+		//Utils.getCurrentMacIPAddressAndSetandroidProxy(true, true);
 		// Enable rewriting to USA on Charles because Tunnel Bear not working in India
 		proxy.enableRewriting();
 		proxy.startRecording();
