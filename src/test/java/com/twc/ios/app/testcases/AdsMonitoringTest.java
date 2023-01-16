@@ -134,7 +134,7 @@ public class AdsMonitoringTest extends TwcIosBaseTest {
 		Utils.getiPhoneUDID();
 		Utils.getiOSVersion();
 		Functions.capabilities();
-		Functions.Appium_Autostart();
+		//Functions.Appium_Autostart();
 		Utils.getCurrentMacIPAddressAndSetiPhoneProxy(true, true);
 		// Enable rewriting to USA on Charles because Tunnel Bear not working in India
 		proxy.enableRewriting();
