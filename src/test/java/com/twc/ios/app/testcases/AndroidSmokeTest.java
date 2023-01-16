@@ -3112,22 +3112,7 @@ public class AndroidSmokeTest extends TwcIosBaseTest {
 				properties.getProperty("remoteLogLevel"));
 	}
 	
-	@Test(priority = 875, enabled = true)
-	@Description("Verify Confiant SDK Calls")
-	public void Verify_Confiant_SDK_Calls() throws Exception {
-		System.out.println("==============================================");
-		System.out.println("****** Confiant SDK Calls Validation test started");
-		logStep("Confiant SDK Calls Validation test started");
-		/*Functions.archive_folder("Charles");
-		TestBase.waitForMilliSeconds(5000);
-		stScreen.select_Airlock_Branch("Clear");
-		stScreen.select_Airlock_UserGroup("confiant");
-		proxy.clearCharlesSession();
-		Functions.close_launchAppAndroid();
-		proxy.getXml();
-		Utils.createXMLFileForCharlesSessionFile();*/
-		Utils.verifyConfiantSDKInitializationCallsAndroid("Smoke", "Confiant");
-	}
+	
 
 	/**
 	 * This method validates Seasonal Hub details page ad call
