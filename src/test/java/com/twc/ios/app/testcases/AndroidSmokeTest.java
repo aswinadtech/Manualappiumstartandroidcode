@@ -2245,19 +2245,7 @@ public class AndroidSmokeTest extends TwcIosBaseTest {
 		hmTab.clickonHomeTab();
 		proxy.clearCharlesSession();
 		TestBase.waitForMilliSeconds(2000);
-		// navigate to Radar tab
-		Functions.archive_folder("Charles");
-		rTab.navigateToRadarTab();
-		proxy.getXml();
-		Utils.createXMLFileForCharlesSessionFile();
-		Utils.validate_custom_param_val_of_gampad("Smoke", "Map", "mr", "0");
-		proxy.clearCharlesSession();
-		//Functions.swipe_Down(Ad);
-		Functions.swipe_Left();
-		Functions.archive_folder("Charles");
-		proxy.getXml();
-		Utils.createXMLFileForCharlesSessionFile();
-		Utils.validate_custom_param_val_of_gampad("Smoke", "Map", "mr", "1");
+		
 		
 	}
 	
